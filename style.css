@@ -1,0 +1,421 @@
+@font-face {
+    font-family: robotoRegular;
+    src: url(assets/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: coolFont;
+    src: url(assets/Aerolite.otf);
+}
+
+@font-face{
+    font-family: secondFont;
+    src: url(assets/roof.runners-bold.ttf);
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    width: 100%;
+    height: 90px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+a{
+    margin: 40px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: robotoRegular;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#mainBackground{
+
+    width: 1890px;
+    height: 965px;
+    z-index: 1;
+}
+
+#manaPrice{
+    position: absolute;
+    font-size: 90px;
+    top: 80px;
+    left: 350px;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    font-family: coolFont;
+    font-style: italic;
+    word-spacing: 25px;
+}
+
+#show-more{
+    position: absolute;
+    top: 750px;
+    left: 22%;
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    
+}
+
+#show-more:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+
+.background1{
+    position: absolute;
+    top: 1415px;
+    width: 1890px;
+    height: 440px;
+    background-color: rgb(27, 0, 177);
+    z-index: 0;
+}
+
+.background2{
+    position: absolute;
+    top: 973px;
+    width: 1890px;
+    height: 440px;
+    background-color: black;
+    z-index: 0;
+}
+
+
+#tericText{
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: 40px;
+}
+
+#discordImage{
+    width: 2.5%;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+
+#discordImage:hover{
+    content: url("assets/discordDrak.png");
+}
+
+#TericDescription1{
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+    line-height: 25px;
+
+}
+
+#TericDescription2{
+    position: absolute;
+    top: 1190px;
+    left: 540px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+    line-height: 25px;
+
+}
+
+#TericDescription3{
+    position: absolute;
+    top: 1300px;
+    left: 370px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+
+#javaSale{
+    position: absolute;
+    top: 1440px;
+    left: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    word-spacing: 10px;
+    line-height: 40px;
+}
+
+#shop{
+    position: absolute;
+    top: 1650px;
+    left: 300px;
+    width: 120px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    font-weight: 900;
+}
+
+#shop:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+#manaVideo{
+    position: absolute;
+    top: 1475px;
+    left: 900px;
+    z-index: 1;
+}
+
+#shopBackground{
+    width: 1890px;
+    height: 1000px;
+}
+
+
+#poision1{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+#poision2{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+}
+#poision3{
+    width: 300px;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+}
+#poision4{
+    width: 300px;
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+}
+
+.itemDes{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mana2000{
+    position: absolute;
+    top: 420px;
+    left: 500px;
+}
+
+#mana5000{
+    position: absolute;
+    top: 420px;
+    left: 1100px;
+}
+
+#energy2000{
+    position: absolute;
+    top: 850px;
+    left: 500px;
+}
+
+#energy5000{
+    position: absolute;
+    top: 850px;
+    left: 1100px;
+}
+
+.itemPrice{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#domainText{
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 830px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#instegramImg{
+    width: 45px;
+    position: absolute;
+    top: 25px;
+    right: 135px;
+    z-index: 1;
+}
+
+#instegramImg:hover{
+    content: url("assets/instagramDark.png");
+}
+
+#topBackground{
+    width: 1890px;
+}
+
+
+#aboutText{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: secondFont;
+    position: absolute;
+    top: 200px;
+    left: 480px;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+.aboutBar{
+    position: absolute;
+    bottom: -1228px;
+    width: 1890px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#contact{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 220px;
+    left: 300px;
+}
+
+#yoashLink{
+    position: absolute;
+    bottom: 210px;
+    font-size: 45px;
+    left: 560px;
+}
+
+#yoashLink:hover{
+    color:rgb(27, 0, 177);
+}
+
+
+#supportUs{
+    position: absolute;
+    bottom: 220px;
+    left: 1200px;
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#supportUs:hover{
+    color: rgb(27, 0, 177);
+}
+
+#paypalImg{
+    position:absolute;
+    width: 50px;
+    left: 1420px;
+    bottom: 235px;
+}
+
+#ourInstegram{
+    position: absolute;
+    bottom: 80px;
+    left: 1200px;
+    color: black;
+    font-size: 35px;
+}
+
+#instegramImg2{
+    position: absolute;
+    bottom: 95px;
+    left: 1450px;
+    width: 50px;
+}
+
+#ourInstegram:hover{
+    color:  rgb(27, 0, 177);
+}
+
+#phoneNumber{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    bottom: 80px;
+    left: 300px;
+}
+
+
+.aboutBarAbout{
+    position: absolute;
+    bottom: -400px;
+    width: 1890px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutBarShop{
+    position: absolute;
+    bottom: -400px;
+    width: 1890px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+}
+
+#secretButton{
+    position: absolute;
+    bottom: -400px;
+    left: 1800px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#secretText{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 60px;
+    word-spacing: 10px;
+    font-size: 40px;
+}
